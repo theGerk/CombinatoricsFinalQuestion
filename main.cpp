@@ -104,6 +104,7 @@ size_t testKVal(size_t k, size_t n) {
 				break;
 			}
 	}
+	std::cout << "K: " << k << "\t ==> " << output << std::endl;
 	return output;
 }
 
